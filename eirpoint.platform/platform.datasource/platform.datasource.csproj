@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="api\" />
+    <Folder Include="messaging\" />
+    <Folder Include="repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\platform.shared\platform.shared.csproj" />
+  </ItemGroup>
+
+</Project>
