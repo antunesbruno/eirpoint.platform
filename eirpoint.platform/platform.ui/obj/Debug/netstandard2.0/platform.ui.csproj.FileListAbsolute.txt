@@ -1,6 +1,13 @@
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\bin\Debug\netstandard2.0\platform.ui.deps.json
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\bin\Debug\netstandard2.0\platform.ui.dll
+C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\bin\Debug\netstandard2.0\platform.ui.pdb
+C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\bin\Debug\netstandard2.0\platform.shared.dll
+C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\bin\Debug\netstandard2.0\platform.shared.pdb
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\platform.ui.csprojResolveAssemblyReference.cache
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\platform.ui.csproj.CoreCompileInputs.cache
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\platform.ui.AssemblyInfoInputs.cache
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\platform.ui.AssemblyInfo.cs
+C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\platform.ui.csproj.CopyComplete
+C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\platform.ui.dll
+C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\platform.ui.pdb
