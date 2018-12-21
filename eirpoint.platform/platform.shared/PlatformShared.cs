@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Platform.Shared.Contract;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Platform.Shared
 {
-    public class PlatformShared
+    public class PlatformShared : IPlatformShared
     {
         public void Initialize()
         {           

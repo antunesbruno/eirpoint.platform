@@ -30,10 +30,6 @@ namespace Platform.Ioc
             Injector.RegisterType<PlatformShared, IPlatformShared>();
             Injector.RegisterType<PlatformUi, IPlatformUi>();
             Injector.RegisterType<PlatformHardware, IPlatformHardware>();
-
-            //TODO view e viewmodels
-
-            //TODO other dependencies
         }
     }
 }
