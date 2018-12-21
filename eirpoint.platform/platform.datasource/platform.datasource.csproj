@@ -5,13 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="api\" />
-    <Folder Include="messaging\" />
-    <Folder Include="repository\" />
+    <Folder Include="Api\" />
+    <Folder Include="Messaging\" />
+    <Folder Include="Repository\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\platform.shared\platform.shared.csproj" />
+    <ProjectReference Include="..\platform.shared\Platform.Shared.csproj" />
   </ItemGroup>
 
 </Project>

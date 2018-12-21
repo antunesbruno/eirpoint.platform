@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace platform.shared.contract
+namespace Platform.Shared.Contract
 {
     public interface IPlatformHardware
     {
+        void Initialize();
     }
 }

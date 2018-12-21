@@ -185,9 +185,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\platform.shared.csproj",
-      "projectName": "platform.shared",
-      "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\platform.shared.csproj",
+      "projectUniqueName": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\Platform.Shared.csproj",
+      "projectName": "Platform.Shared",
+      "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\Platform.Shared.csproj",
       "packagesPath": "C:\\Users\\bruno.antunes\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\obj\\",
       "projectStyle": "PackageReference",

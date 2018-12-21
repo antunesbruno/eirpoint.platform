@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platform.datasource", "platform.datasource\platform.datasource.csproj", "{25A0987A-D691-4FD2-9ED1-7DC627B6BB43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Datasource", "platform.datasource\Platform.Datasource.csproj", "{25A0987A-D691-4FD2-9ED1-7DC627B6BB43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platform.core", "platform.core\platform.core.csproj", "{CEDE6944-C3CF-4E41-BDF5-FAF7DBC1043E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Core", "platform.core\Platform.Core.csproj", "{CEDE6944-C3CF-4E41-BDF5-FAF7DBC1043E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platform.shared", "platform.shared\platform.shared.csproj", "{6D8E8DF9-F8DC-4FAB-A4E4-B16BD086811D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Shared", "platform.shared\Platform.Shared.csproj", "{6D8E8DF9-F8DC-4FAB-A4E4-B16BD086811D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platform.hardware", "platform.hardware\platform.hardware.csproj", "{DBD0BEE3-1242-411C-A4D3-2AD1F408A8F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Hardware", "platform.hardware\Platform.Hardware.csproj", "{DBD0BEE3-1242-411C-A4D3-2AD1F408A8F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "platform.ui", "platform.ui\platform.ui.csproj", "{08CDFCCC-7A99-4FFA-830C-076DA5733D34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Ui", "platform.ui\Platform.Ui.csproj", "{08CDFCCC-7A99-4FFA-830C-076DA5733D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Ioc", "platform.ioc\Platform.Ioc.csproj", "{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{08CDFCCC-7A99-4FFA-830C-076DA5733D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08CDFCCC-7A99-4FFA-830C-076DA5733D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08CDFCCC-7A99-4FFA-830C-076DA5733D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

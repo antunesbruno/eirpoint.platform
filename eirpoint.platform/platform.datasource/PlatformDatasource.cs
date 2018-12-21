@@ -1,9 +1,6 @@
-﻿using platform.shared.contract;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Platform.Shared.Contract;
 
-namespace platform.datasource
+namespace Platform.Datasource
 {
     public class PlatformDatasource : IPlatformDatasource
     {

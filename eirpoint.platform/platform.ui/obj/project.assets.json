@@ -43,14 +43,14 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "platform.shared/1.0.0": {
+      "Platform.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/platform.shared.dll": {}
+          "bin/placeholder/Platform.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/platform.shared.dll": {}
+          "bin/placeholder/Platform.Shared.dll": {}
         }
       }
     }
@@ -343,17 +343,17 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "platform.shared/1.0.0": {
+    "Platform.Shared/1.0.0": {
       "type": "project",
-      "path": "../platform.shared/platform.shared.csproj",
-      "msbuildProject": "../platform.shared/platform.shared.csproj"
+      "path": "../platform.shared/Platform.Shared.csproj",
+      "msbuildProject": "../platform.shared/Platform.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.1",
-      "Xamarin.Forms >= 3.4.0.1008975",
-      "platform.shared >= 1.0.0"
+      "Platform.Shared >= 1.0.0",
+      "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
   "packageFolders": {
@@ -364,9 +364,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.ui\\platform.ui.csproj",
-      "projectName": "platform.ui",
-      "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.ui\\platform.ui.csproj",
+      "projectUniqueName": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.ui\\Platform.Ui.csproj",
+      "projectName": "Platform.Ui",
+      "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.ui\\Platform.Ui.csproj",
       "packagesPath": "C:\\Users\\bruno.antunes\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.ui\\obj\\",
       "projectStyle": "PackageReference",
@@ -389,8 +389,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\platform.shared.csproj": {
-              "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\platform.shared.csproj"
+            "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\Platform.Shared.csproj": {
+              "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\Platform.Shared.csproj"
             }
           }
         }

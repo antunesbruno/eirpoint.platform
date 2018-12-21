@@ -1,9 +1,12 @@
-﻿using platform.shared.contract;
-using System;
+﻿using Platform.Shared.Contract;
 
-namespace platform.hardware
+namespace Platform.Hardware
 {
     public class PlatformHardware : IPlatformHardware
     {
+        public void Initialize()
+        {
+            
+        }
     }
 }

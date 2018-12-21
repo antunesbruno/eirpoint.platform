@@ -26,14 +26,27 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "platform.shared/1.0.0": {
+      "Platform.Datasource/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Platform.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Platform.Datasource.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Platform.Datasource.dll": {}
+        }
+      },
+      "Platform.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/platform.shared.dll": {}
+          "bin/placeholder/Platform.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/platform.shared.dll": {}
+          "bin/placeholder/Platform.Shared.dll": {}
         }
       }
     }
@@ -181,16 +194,22 @@
         "lib/netstandard1.0/_._"
       ]
     },
-    "platform.shared/1.0.0": {
+    "Platform.Datasource/1.0.0": {
       "type": "project",
-      "path": "../platform.shared/platform.shared.csproj",
-      "msbuildProject": "../platform.shared/platform.shared.csproj"
+      "path": "../platform.datasource/Platform.Datasource.csproj",
+      "msbuildProject": "../platform.datasource/Platform.Datasource.csproj"
+    },
+    "Platform.Shared/1.0.0": {
+      "type": "project",
+      "path": "../platform.shared/Platform.Shared.csproj",
+      "msbuildProject": "../platform.shared/Platform.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.1",
-      "platform.shared >= 1.0.0"
+      "Platform.Datasource >= 1.0.0",
+      "Platform.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -201,9 +220,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.core\\platform.core.csproj",
-      "projectName": "platform.core",
-      "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.core\\platform.core.csproj",
+      "projectUniqueName": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.core\\Platform.Core.csproj",
+      "projectName": "Platform.Core",
+      "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.core\\Platform.Core.csproj",
       "packagesPath": "C:\\Users\\bruno.antunes\\.nuget\\packages\\",
       "outputPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.core\\obj\\",
       "projectStyle": "PackageReference",
@@ -226,8 +245,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\platform.shared.csproj": {
-              "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\platform.shared.csproj"
+            "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.datasource\\Platform.Datasource.csproj": {
+              "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.datasource\\Platform.Datasource.csproj"
+            },
+            "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\Platform.Shared.csproj": {
+              "projectPath": "C:\\Projetos-Git\\eirpoint.platform\\eirpoint.platform\\platform.shared\\Platform.Shared.csproj"
             }
           }
         }

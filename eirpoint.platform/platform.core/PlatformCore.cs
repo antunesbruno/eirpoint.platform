@@ -1,11 +1,13 @@
-﻿using platform.shared.contract;
-using System;
+﻿using Platform.Shared.Contract;
 
-namespace platform.core
+namespace Platform.Core
 {
     public class PlatformCore : IPlatformCore
     {
         public void Initialize()
-        { }
+        {
+
+
+        }
     }
 }

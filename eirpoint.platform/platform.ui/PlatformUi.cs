@@ -1,9 +1,11 @@
-﻿using platform.shared.contract;
-using System;
+﻿using Platform.Shared.Contract;
 
-namespace platform.ui
+namespace Platform.Ui
 {
     public class PlatformUi : IPlatformUi
     {
+        public void Initialize()
+        {
+        }
     }
 }
