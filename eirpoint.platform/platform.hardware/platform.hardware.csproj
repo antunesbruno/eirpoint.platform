@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Assets\" />
     <Folder Include="Bluetooth\" />
     <Folder Include="Camera\" />
   </ItemGroup>

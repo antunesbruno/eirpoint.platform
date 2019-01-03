@@ -16,6 +16,7 @@
 [Rr]elease/
 [Rr]eleases/
 x64/
+#Starting on new repository, verify libpackaged_sqlcipher.so for x86 on \..\06_Construcao\Sigga.SM2.Forms\Sigga.SM2.Forms.Droid\lib\x86 and restore this;
 x86/
 build/
 bld/
@@ -204,3 +205,4 @@ custom_dependencies/
 *lock.json
 *Resource.Designer.cs
 /.project
+.localhistory

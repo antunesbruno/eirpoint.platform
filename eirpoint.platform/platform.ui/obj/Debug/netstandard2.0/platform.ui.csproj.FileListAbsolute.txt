@@ -3,7 +3,6 @@ C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\bin\Debug\netsta
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\bin\Debug\netstandard2.0\Platform.Ui.pdb
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\bin\Debug\netstandard2.0\Platform.Shared.dll
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\bin\Debug\netstandard2.0\Platform.Shared.pdb
-C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\Platform.Ui.csprojAssemblyReference.cache
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\Platform.Ui.csproj.CoreCompileInputs.cache
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\Platform.Ui.AssemblyInfoInputs.cache
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\Platform.Ui.AssemblyInfo.cs
@@ -11,3 +10,4 @@ C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netsta
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\Platform.Ui.csproj.CopyComplete
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\Platform.Ui.dll
 C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\Platform.Ui.pdb
+C:\Projetos-Git\eirpoint.platform\eirpoint.platform\platform.ui\obj\Debug\netstandard2.0\Platform.Ui.csprojAssemblyReference.cache

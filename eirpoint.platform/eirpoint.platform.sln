@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Hardware", "platfo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Ui", "platform.ui\Platform.Ui.csproj", "{08CDFCCC-7A99-4FFA-830C-076DA5733D34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Ioc", "platform.ioc\Platform.Ioc.csproj", "{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Ioc", "platform.ioc\Platform.Ioc.csproj", "{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hardware", "Hardware", "{17B965ED-D75B-42B3-9CBF-6B80509CFD14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform.Hardware.Zebra", "Platform.Hardware.Zebra\Platform.Hardware.Zebra.csproj", "{4DE652F0-4F37-4B22-AB81-BE1D194BAF6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +49,17 @@ Global
 		{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED3032E0-0AAE-4309-86F8-60E75D24F8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE652F0-4F37-4B22-AB81-BE1D194BAF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE652F0-4F37-4B22-AB81-BE1D194BAF6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE652F0-4F37-4B22-AB81-BE1D194BAF6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE652F0-4F37-4B22-AB81-BE1D194BAF6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBD0BEE3-1242-411C-A4D3-2AD1F408A8F2} = {17B965ED-D75B-42B3-9CBF-6B80509CFD14}
+		{4DE652F0-4F37-4B22-AB81-BE1D194BAF6E} = {17B965ED-D75B-42B3-9CBF-6B80509CFD14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB414D0C-400A-460E-B796-FBFB1AC900B5}
