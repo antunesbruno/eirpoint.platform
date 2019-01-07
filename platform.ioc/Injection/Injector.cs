@@ -41,9 +41,12 @@ namespace Platform.Ioc.Injection
         /// </summary>
         /// <typeparam name="T">Interface</typeparam>
         /// <typeparam name="Y">Class</typeparam>
-        public static void RegisterType<T, Y>()
+        public static void RegisterType<T, Y>(bool newInstance = false)
         {
-            builder.RegisterType<T>().As<Y>();
+            if(newInstance)
+                builder.RegisterType<T>().As<Y>();
+            else
+                builder.RegisterType<T>().As<Y>().SingleInstance();
         }
 
         /// <summary>
@@ -53,7 +56,10 @@ namespace Platform.Ioc.Injection
         /// <returns></returns>
         public static T Resolver<T>()
         {
-            return _container.Resolve<T>();
+            using (var scope = _container.BeginLifetimeScope())
+            {
+                return _container.Resolve<T>();
+            }
         }
 
         /// <summary>
